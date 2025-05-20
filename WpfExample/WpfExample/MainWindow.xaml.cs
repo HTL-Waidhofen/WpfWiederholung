@@ -25,5 +25,10 @@ namespace WpfExample
         {
             InitializeComponent();
         }
+
+        private void Button7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
