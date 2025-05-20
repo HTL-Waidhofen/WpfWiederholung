@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 
 namespace WpfExample
@@ -24,6 +25,20 @@ namespace WpfExample
         public MainWindow()
         {
             InitializeComponent();
+        }
+       
+        public void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            int i;
+            for (i = 0; i <= 10; i++)
+            {
+                Thread.Sleep(500);
+                Button3.Content = "Frag nicht was für Saft, einfach Orangensaft";
+
+                
+            }
+            
+            
         }
     }
 }
