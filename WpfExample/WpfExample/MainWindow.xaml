@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:WpfExample"
         mc:Ignorable="d"
         Title="Wpf Example - Main Window" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Button x:Name="Button1"></Button>
+        <Button x:Name="Button2"></Button>
+        <Button x:Name="Button3"></Button>
+        <Button x:Name="Button4"></Button>
+        <Button x:Name="Button5"></Button>
+        <Button x:Name="Button6"></Button>
+        <Button x:Name="Button7"></Button>
+    </StackPanel>
 </Window>
